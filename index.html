@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Syed Ali | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+
+<h2 class="logo">Syed Ali</h2>
+
+<ul>
+
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+<button id="themeToggle">🌙</button>
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<img src="syedali.jpg" class="profile">
+
+<h1>Syed Ali</h1>
+
+<h3>I am a <span id="typing"></span></h3>
+
+<div class="social">
+
+<a href="#"><i class="fab fa-github"></i></a>
+<a href="#"><i class="fab fa-linkedin"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about" class="container">
+
+<h2>About Me</h2>
+
+<p>
+Motivated Computer Science student passionate about App development,Web development,
+UI design, and modern software engineering. I enjoy building modern
+interactive websites and learning new technologies.
+</p>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills" class="container">
+
+<h2>Skills</h2>
+
+<div class="skill">
+
+<p>HTML</p>
+<div class="bar"><span style="width:90%"></span></div>
+
+</div>
+
+<div class="skill">
+
+<p>CSS</p>
+<div class="bar"><span style="width:85%"></span></div>
+
+</div>
+
+<div class="skill">
+
+<p>JavaScript</p>
+<div class="bar"><span style="width:75%"></span></div>
+
+</div>
+
+<div class="skill">
+
+<p>Java</p>
+<div class="bar"><span style="width:85%"></span></div>
+
+</div>
+
+<div class="skill">
+
+<p>C#</p>
+<div class="bar"><span style="width:80%"></span></div>
+
+</div>
+
+<div class="skill">
+
+<p>Kotlin</p>
+<div class="bar"><span style="width:90%"></span></div>
+
+</div>
+
+
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects" class="container">
+
+<h2>Projects</h2>
+
+<div class="project-grid">
+
+<div class="project" onclick="openModal('Portfolio Website')">
+
+<h3>Portfolio Website</h3>
+<p>Click to view details</p>
+
+</div>
+
+<div class="project" onclick="openModal('Student Management System')">
+
+<h3>Student Management System</h3>
+<p>Click to view details</p>
+
+</div>
+
+<div class="project" onclick="openModal('E-Commerce Website')">
+
+<h3>E-Commerce Website</h3>
+<p>Click to view details</p>
+
+</div>
+
+<div class="project" onclick="openModal('AgroSmart Android App')">
+
+<h3>Android App</h3>
+<p>Click to view details</p>
+
+</div>
+
+
+</section>
+
+<!-- MODAL -->
+
+<div id="modal" class="modal">
+
+<div class="modal-content">
+
+<span class="close" onclick="closeModal()">&times;</span>
+
+<p id="modalText"></p>
+
+</div>
+
+</div>
+
+<!-- CONTACT -->
+
+<section id="contact" class="container">
+
+<h2>Contact Me</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<textarea placeholder="Your Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>© 2026 Syed Ali Portfolio</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
